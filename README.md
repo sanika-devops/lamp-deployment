@@ -6,33 +6,33 @@ This project automates the deployment of a **LAMP (Linux, Apache, MySQL, PHP) st
 
 ## 📂 Project Structure
 
-- **install_lamp.sh** → Bash script for automated LAMP deployment  
-- **TROUBLESHOOTING.md** → Common issues and solutions  
+- **lamp-setup.sh** → Bash script for automated LAMP deployment
+- **TROUBLESHOOTING.md** → Common issues and solutions
 - **README.md** → This file (Setup guide + commands)
-- **SECURITY_CONSIDERATIONS.md** → Security best practices and hardening guidelines  
 
 ---
 
 ## 📌 1. Prerequisites
 
-- An **AWS account**  
-- A **running EC2 instance** (Ubuntu 22.04)  
+- An **AWS account**
+- A **running EC2 instance** (Ubuntu 22.04)
 - A **security group** with:
   - **HTTP (80)**
   - **SSH (22)**
-  - **MySQL (3306) [optional]**  
-- **SSH access** to the instance  
+  - **MySQL (3306) [optional]**
+- **SSH access** to the instance
 
 ---
 
 ## 🔧 2. Setup Steps
 
-### 🔹 Step 1: Connect to EC2 Instance  
+### 🔹 Step 1: Connect to EC2 Instance
 
 ```bash
 ssh -i your-key.pem ubuntu@your-ec2-public-ip
 
-###🔹 Step 2: Download the LAMP Setup Script
+### 🔹 Step 2: Download the LAMP Setup Script
+``` bash
     wget https://raw.githubusercontent.com/sanika-devops/lamp-deployment/main/install_lamp.sh
 
 ###🔹 Step 3: Make the Script Executable
