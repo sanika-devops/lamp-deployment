@@ -50,7 +50,9 @@ wget https://raw.githubusercontent.com/sanika-devops/lamp-deployment/main/instal
 
 ### 🔹 Step 5: Verify Installation
 #### Check Apache status
-       ``` sudo systemctl status apache2 ```
+```
+  sudo systemctl status apache2
+```
 #### Check MySQL status
        ``` sudo systemctl status mysql ```
 #### Check PHP installation
