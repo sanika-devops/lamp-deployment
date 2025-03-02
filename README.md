@@ -31,25 +31,35 @@ This project automates the deployment of a **LAMP (Linux, Apache, MySQL, PHP) st
 
 ```bash
 ssh -i your-key.pem ubuntu@your-ec2-public-ip
+```
 
 ### 🔹 Step 2: Download the LAMP Setup Script  
 ```bash
 wget https://raw.githubusercontent.com/sanika-devops/lamp-deployment/main/install_lamp.sh
+```
 
-###🔹 Step 3: Make the Script Executable
+### 🔹 Step 3: Make the Script Executable
+```
     chmod +x install_lamp.sh
+```
 
-###🔹 Step 4: Run the Script
+### 🔹 Step 4: Run the Script
+```
     ./install_lamp.sh
+```
 
-###🔹 Step 5: Verify Installation
+### 🔹 Step 5: Verify Installation
+```    
     Check Apache status
         sudo systemctl status apache2
     Check MySQL status
         sudo systemctl status mysql
     Check PHP installation
         php -v
+```
 
-###🔹 Step 6: Test the Setup
+### 🔹 Step 6: Test the Setup
+```
     Open your browser and visit:
         http://your-ec2-public-ip/index.php
+```
