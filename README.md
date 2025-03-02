@@ -6,9 +6,10 @@ This project automates the deployment of a **LAMP (Linux, Apache, MySQL, PHP) st
 
 ## 📂 Project Structure
 
-- **lamp-setup.sh** → Bash script for automated LAMP deployment
-- **TROUBLESHOOTING.md** → Common issues and solutions
+- **install_lamp.sh** → Bash script for automated LAMP deployment
+- **TROUBLESHOOT.md** → Common issues and solutions
 - **README.md** → This file (Setup guide + commands)
+- **SECURITY_CONSIDERATIONS.md** → Security best practices and hardening guidelines 
 
 ---
 
