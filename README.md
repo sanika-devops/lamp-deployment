@@ -49,13 +49,13 @@ wget https://raw.githubusercontent.com/sanika-devops/lamp-deployment/main/instal
 ```
 
 ### 🔹 Step 5: Verify Installation
-# Check Apache status
+#### Check Apache status
        ``` sudo systemctl status apache2 ```
-# Check MySQL status
+#### Check MySQL status
        ``` sudo systemctl status mysql ```
-# Check PHP installation
+#### Check PHP installation
        ``` php -v ```
 
 ### 🔹 Step 6: Test the Setup
-#  Open your browser and visit:
+####  Open your browser and visit:
       ```  http://your-ec2-public-ip/index.php ```
