@@ -32,9 +32,9 @@ This project automates the deployment of a **LAMP (Linux, Apache, MySQL, PHP) st
 ```bash
 ssh -i your-key.pem ubuntu@your-ec2-public-ip
 
-### 🔹 Step 2: Download the LAMP Setup Script
-``` bash
-    wget https://raw.githubusercontent.com/sanika-devops/lamp-deployment/main/install_lamp.sh
+### 🔹 Step 2: Download the LAMP Setup Script  
+```bash
+wget https://raw.githubusercontent.com/sanika-devops/lamp-deployment/main/install_lamp.sh
 
 ###🔹 Step 3: Make the Script Executable
     chmod +x install_lamp.sh
